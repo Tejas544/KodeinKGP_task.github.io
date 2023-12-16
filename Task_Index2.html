@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    
+    <link rel="stylesheet" href="Task_Index2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Pacifico&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <h1>
+            Book-O-Sphere
+        </h1>
+        <h2>Where Books are unfolded...</h2>
+    </header><div class="content">
+        <nav id="Heading">
+            <ul>
+                <li><a href="#Introduction">Introduction</a></li>
+                <li><a href="#Best Selling Books">Best Selling Books</a></li>
+                <li><a href="#Our Recommendations">Our Recommendations</a></li>
+                <li><a href="#Reviews">Reviews</a></li>
+               <li> <img id="moon_icon" src="Images/moon_new.png"  ></li>
+        </nav>
+    </div>
+    
+   <main>
+        <section id="Introduction">
+            <h1>Introduction</h1><div id="intro">
+                <div id="poster">
+            <img src="Images/Poster.png" alt=""></div>
+            <div id="Title">
+                <h2>Book-O-Sphere</h2><br>
+                <button id="GoToBest">View Our Best Selling Books</button>
+            </div></div>
+        </section>
+        <Section id="Best Selling Books">
+            <h1>Best Selling Books</h1>
+            <h3>Do check these out to begin your Journey....</h3>
+            <div class="container_best">
+            <div  class="book-container" id="container1">
+                <img src="Images/Book 1.png" alt=""><br>
+                <h2>Where the Crawdads Sing</h2>
+                <h5 class="price">Rs.270<br> 20%off Rs.216</h5>
+                <p class="description">This novel follows the story of Kya Clark, known as the "Marsh Girl," growing up isolated in the marshes of North Carolina. It combines elements of mystery, coming-of-age, and a vivid portrayal of nature.</p>
+                <div class="buttons">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                  </div>
+            </div>
+            <div class="book-container" id="container2">
+                <img src="Images/Book 2.png" alt=""><br>
+                <h2>The Vanishing Half</h2>
+                <h5 class="price">Rs.1320 <br>15%off Rs.1122</h5>
+                <p class="description">This novel delves into the lives of twin sisters who take divergent paths, one embracing her black heritage while the other passes as white. It explores race, identity, and family secrets across generations.</p>
+                <div class="buttons">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                  </div>
+            </div>
+            <div class="book-container" id="container3">
+                <img src="Images/Book 3.png" alt=""><br>
+                <h2>Educated</h2>
+                <h5 class="price">Rs.1950<br> 20%off Rs.1560</h5>
+                <p class="description">This memoir recounts Tara Westover's journey from growing up in a strict, isolated household in rural Idaho, with no formal education, to ultimately earning a PhD from Cambridge University. It explores themes of family, education, and resilience.</p>
+                <div class="buttons">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                  </div>
+            </div>
+            <div class="book-container" id="container4">
+                <img src="Images/Book 4.png" alt=""><br>
+                <h2>Becoming</h2>
+                <h5 class="price">Rs.1330<br> 25%off Rs.997.5</h5>
+                <p class="description"> Michelle Obama's memoir narrates her experiences from her childhood on the South Side of Chicago to her role as First Lady of the United States. It covers her personal growth, her time in the White House, and advocacy work.</p>
+                <div class="buttons">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                  </div>        
+            </div>
+        </div>
+        </Section>
+        <section id="Our Recommendations">
+            <h1>Our Recommendations</h1>
+            <div class="search-bar">
+                <input type="text" id="bookSearch" placeholder="Search for books...">
+                <button onclick="searchBooks()">Search</button>
+              </div>
+           <div class="container_recommend">
+            <div class="book-container" id="container1">
+                <img src="Images/Book 1.png" alt=""><br>
+                <h2>Where the Crawdads Sing</h2>
+                <h5 class="price">Rs.270 20%off Rs.216</h5>
+                <p class="description">This novel follows the story of Kya Clark, known as the "Marsh Girl," growing up isolated in the marshes of North Carolina. It combines elements of mystery, coming-of-age, and a vivid portrayal of nature.</p>
+                <div class="buttons">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                  </div>
+            </div>
+            <div class="book-container" id="container2">
+                <img src="Images/Book 2.png" alt=""><br>
+                <h2>The Vanishing Half</h2>
+                <h5 class="price">Rs.1320 15%off Rs.1122</h5>
+                <p class="description">This novel delves into the lives of twin sisters who take divergent paths, one embracing her black heritage while the other passes as white. It explores race, identity, and family secrets across generations.</p>
+                <div class="buttons">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                  </div>
+            </div>
+            <div class="book-container" id="container3">
+                <img src="Images/Book 3.png" alt=""><br>
+                <h2>Educated</h2>
+                <h5 class="price">Rs.1950 20%off Rs.1560</h5>
+                <p class="description">This memoir recounts Tara Westover's journey from growing up in a strict, isolated household in rural Idaho, with no formal education, to ultimately earning a PhD from Cambridge University. It explores themes of family, education, and resilience.</p>
+                <div class="buttons">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                  </div>
+            </div>
+            <div class="book-container" id="container4">
+                <img src="Images/Book 4.png" alt=""><br>
+                <h2>Becoming</h2>
+                <h5 class="price">Rs.1330 25%off Rs.997.5</h5>
+                <p class="description"> Michelle Obama's memoir narrates her experiences from her childhood on the South Side of Chicago to her role as First Lady of the United States. It covers her personal growth, her time in the White House, and advocacy work.</p>
+                <div class="buttons">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                  </div>
+            </div>
+            <div class="book-container" id="container5">
+                <img src="Images/Book 5.png" alt=""><br>
+                <h2>Circe</h2>
+                <h5 class="price">Rs.196 25%off Rs.147</h5>
+                <p class="description">This novel follows the story of Circe, a lesser Greek goddess, as she navigates divine politics, love, and exile. It's a reimagining of the life of a powerful but often overlooked figure from Greek mythology.</p>
+                <div class="buttons">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                  </div>
+            </div>
+            
+            
+            <div class="book-container" id="container6">
+                <img src="Images/Book 6.png" alt=""><br>
+                <h2>Such a Fun Age</h2>
+                <h5 class="price">Rs.1703 20%off Rs.1362.4</h5>
+                <p class="description">A thought-provoking novel exploring race, privilege, and social dynamics through the story of a young black babysitter, Emira, and her employer, Alix Chamberlain, who means well but often misunderstands her intentions.</p>
+                <div class="buttons">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                  </div>
+            </div>
+            <div class="book-container" id="container7">
+                <img src="Images/Book 7.png" alt=""><br>
+                <h2>The Splendid and the Vile</h2>
+                <h5 class="price">Rs.2608 20%off Rs.2086.4</h5>
+                <p class="description"> This book chronicles Winston Churchill's leadership during the early days of World War II, focusing on his family, advisors, and the challenges faced by Britain during the Blitz.</p>
+                <div class="buttons">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                  </div>
+            </div>
+            <div class="book-container" id="container8">
+                <img src="Images/Book 8.png" alt=""><br>
+                <h2>"Sapiens: A Brief History of Humankind</h2>
+                <h5 class="price">Rs.470 25%off Rs.352.5</h5>
+                <p class="description"> Offering a broad history of the human species, Harari explores the evolution of Homo sapiens from ancient times to the present day, encompassing social, political, and cultural developments.</p>
+                <div class="buttons">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                  </div>
+            </div>
+            <div class="book-container" id="container9">
+                <img src="Images/Book 9.png" alt=""><br>
+                <h2>Born a Crime: Stories from a South African Childhood</h2>
+                <h5 class="price">Rs.276.3 25%off Rs.193.41</h5>
+                <p class="description">Trevor Noah's memoir narrates his experiences growing up in South Africa during apartheid, exploring issues of race, identity, and the power of laughter amidst challenging circumstances.</p>
+                <div class="buttons">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                  </div>
+            </div>
+            <div class="book-container" id="container10">
+                <img src="Images/Book 10.png" alt=""><br>
+                <h2>Untamed</h2>
+                <h5 class="price">Rs.1952 20%off Rs.1561.6</h5>
+                <p class="description"> Doyle's memoir delves into her journey towards self-discovery and empowerment, challenging societal norms and expectations while advocating for authenticity and bravery.</p>
+                <div class="buttons">
+                    <button class="buy-now">Buy Now</button>
+                    <button class="add-to-cart">Add to Cart</button>
+                  </div>    
+            </div>
+        </div>
+        </section>
+        <section id="Reviews">
+            <h1>Reviews</h1>
+            <div class="Our_Review">
+                  <div >
+                    <img  src="Images/Face 1.png" alt="">
+                    <p class="Reviews">"A haven for book lovers! <br>The cozy ambiance and diverse collection make this shop a gem. Knowledgeable staff and a delightful atmosphere make every visit worthwhile." -Michael Williams</p>
+                  </div>
+                  <div >
+                    <p class="Reviews">"This bookstore is a treasure trove! A wide array of genres, from classics to contemporary reads, coupled with a welcoming vibe, ensures I always leave with a new favorite." -Emily Brown</p>
+                    <img src="Images/Face 3.png" alt="">
+                  </div>
+                  <div >
+                    <img src="Images/Face 2.png" alt="">
+                    <p class="Reviews">"An absolute delight for readers! The curated selection and warm, inviting space make browsing here a joy. A book lover's paradise!" -James Smith</p>
+                  </div>
+            </div>
+            <div class="Form">
+                <form action="">
+                    <p>Name:- <input type="text" placeholder="Enter your Name" required></p>
+                    <p>Email:- <input type="email" placeholder="abc@xyz.com" required></p>
+                    <p>Review:- <input type="text" placeholder="Enter your Opinion here" required></p>
+                    <input type="submit">
+                </form>
+            </div>
+
+        </section>
+    </main> 
+    <footer>
+        <nav id="footer">
+            <ul>
+                <li><a href="">FAQs</a>|</li>
+                <li>Connect With us:</li>
+                <ul class="Social">
+                <li><a href=""><img style="width:20px;" src="Images/youtube.png" alt=""></a></li>
+                <li><a href=""><img style="width:20px;" src="Images/download.jpg" alt=""></a></li>
+                <li><a href=""><img style="width:20px;" src="Images/Web.png" alt=""></a></li>
+                <li><a href=""><img style="width:20px;" src="Images/instagram.png" alt=""></a></li></ul>
+                <li><a href="">|  Privacy Policy</a>|</li>
+                <li><a href="">Terms of Service</a>|</li>
+                <li><a href="">&copy;2023</a>|</li>
+                <li><a href="">All Rights Reserved</a></li>
+            </ul>
+        </nav>
+    </footer> <script>
+    window.addEventListener('scroll', function() {
+        const nav = document.getElementById('Heading');
+        const header = document.querySelector('header');
+        const headerHeight = header.offsetHeight;
+        const scrollPos = window.scrollY;
+      
+        if (scrollPos > headerHeight) {
+          nav.classList.add('fixed');
+        } else {
+          nav.classList.remove('fixed');
+        }
+      });
+      function searchBooks() {
+  var input, filter, container, books, title, i;
+  input = document.getElementById("bookSearch");
+  filter = input.value.toUpperCase();
+  container = document.querySelector(".container_recommend");
+  books = container.getElementsByClassName("book-container");
+
+  for (i = 0; i < books.length; i++) {  
+    title = books[i].getElementsByTagName("h2")[0];
+    if (title.innerText.toUpperCase().indexOf(filter) > -1) {
+      books[i].style.display = "";
+    } else {
+      books[i].style.display = "none";
+    }
+  }
+}
+let a = document.getElementById('GoToBest').addEventListener('click' ,function(Go) {
+    Go = window.location.href = '#Best Selling Books';
+})
+      </script>
+</body>
+</html>

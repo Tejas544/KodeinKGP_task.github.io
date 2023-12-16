@@ -1,0 +1,318 @@
+:root {
+    --primary-color: #ffffff
+}
+#Heading {
+    #Heading {
+        position: relative;
+    }
+
+
+
+}
+#moon_icon {
+    width: 24px;
+    cursor: pointer;
+}
+#Heading ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    /* Remove default margin */
+    padding: 10px 20px;
+    /* Add some padding for better visibility */
+}
+
+#Heading ul li {
+    margin-right: 20px;
+}
+
+#Heading ul li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: large;
+    text-align: right;
+}
+
+#Heading ul li a:hover {
+    color: brown;
+    font-size: x-large;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: fit-content;
+    z-index: 1000;
+    background-color: white;
+    margin-left: 741px;
+}
+
+#Introduction h1 {
+    font-size: 200%;
+    text-align: center;
+    color: #4caf50;
+    background-color: #333;
+    padding: 20px;
+    margin: 0;
+}
+
+#intro {
+    display: flex;
+    height: 100vh;
+    background-color: darkkhaki;
+    margin: 0;
+}
+
+#poster {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#poster img {
+    max-width: 80%;
+    height: auto;
+}
+
+#Title {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#Title button {
+    margin-top: 100px;
+    border: none;
+    background-color: cadetblue;
+    padding: 20px;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+#Title button:hover {
+    background-color: #333;
+    color: cadetblue;
+}
+
+#Title h2 {
+    font-size: 300%;
+    text-shadow: #888;
+}
+
+#Title h2:hover {
+    text-decoration: underline;
+    color: #4caf50;
+}
+
+.container_best {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+
+
+#footer ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+
+}
+
+#footer ul li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.container_best {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.book-container {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.book-container:hover {
+    transform: translateY(-5px);
+}
+
+.book-container img {
+
+    width: 100%;
+    max-height: 200px;
+    object-fit: contain;
+    border-bottom: 1px solid #eee;
+}
+
+.book-container h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+
+
+.book-container .description {
+    display: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.book-container:hover .description {
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.buy-now,
+.add-to-cart {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.container_recommend {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: beige;
+}
+.book-container:hover {
+    transform: translateY(-5px);
+}
+
+
+.book-container h2 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+.book-container .price {
+    font-size: 14px;
+    color: #888;
+    margin: 0;
+}
+.book-container .description {
+    display: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.book-container:hover .description {
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.buy-now,
+.add-to-cart {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-now {
+    background-color: #4caf50;
+    color: white;
+}
+
+.add-to-cart {
+    background-color: #2196f3;
+    color: white;
+}
+
+.buy-now:hover,
+.add-to-cart:hover {
+    background-color: #333;
+}
+
+.added {
+    background-color: #ccc !important;
+    cursor: not-allowed;
+}
+
+.search-bar {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+.search-bar input[type="text"]:focus {
+    outline: none;
+    border-color: #2196f3;
+    /* Change border color on focus */
+}
+
+.search-bar button {
+    padding: 8px 16px;
+}
+
+.container_best {
+    background-color: beige;
+}
+
+.Our_Review {
+    background-color: darkblue;
+
+}
+
+.Reviews {
+    font-family: BhuTuka Expanded One;
+    color: white;
+
+    flex: 1;
+    width: 500px;
+}
+
+.Our_Review div {
+    display: flex;
+    padding: 5px;
+
+}
+
+.Our_Review div img {}
+#footer {
+    background-color: black;
+    margin: 0;
+    padding-bottom: 5px;
+    padding-top: 15px;
+    color: white;
+}
